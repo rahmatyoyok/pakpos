@@ -66,3 +66,13 @@ if ($mode == "edt" || $mode == "act_edt") {
 	</div>
 	
 	</form>
+
+<script type="text/javascript">
+$(function() {
+	$( "input[name=tgl_surat]" ).datepicker({
+		changeMonth: true,
+		changeYear: true,
+		dateFormat: 'yy-mm-dd'
+	});
+});
+</script>
